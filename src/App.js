@@ -1,5 +1,4 @@
 import React from "react"
-import './App.css'
 import { Route, Routes} from "react-router-dom"
 import Dashboard from './pages/DashboardData';
 import AddData from "./pages/AddData";
