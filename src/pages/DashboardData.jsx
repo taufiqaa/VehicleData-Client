@@ -80,7 +80,7 @@ export default function DashboardData() {
             style={{
               width: "100%",
               height: "13rem",
-              backgroundColor: "#fce4d6",
+              backgroundColor: "#f4b9c2",
               marginBottom: "1rem",
               padding: "1rem",
             }}
