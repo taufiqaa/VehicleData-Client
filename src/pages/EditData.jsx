@@ -62,7 +62,7 @@ export default function EditData() {
           "Content-type": "application/json",
         },
       };
-      const response = await API.patch("/vehicle-data/" + id, form, config);
+      const response = await API.patch("/vehicle-data/", form, config);
      
     } catch (error) {
       console.log(error);
