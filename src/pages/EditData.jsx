@@ -15,6 +15,7 @@ export default function EditData() {
 
   const [vehicleData, setVehicleData] = useState({});
   const [form, setForm] = useState({
+    id: id,
     registration_number: "",
     owner: "",
     vehicle_brand: "",
@@ -62,12 +63,12 @@ export default function EditData() {
         },
       };
       const response = await API.patch("/vehicle-data/" + id, form, config);
-      console.log(response);
-
-      // navigate("/");
+     
     } catch (error) {
       console.log(error);
     }
+    alert("Data Berhasil Di-update");
+    navigate("/");
   });
 
   return (
