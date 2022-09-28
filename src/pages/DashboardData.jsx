@@ -110,7 +110,7 @@ export default function DashboardData() {
               </Button>
             </div>
             {vehicleData?.length !== 0 ? (
-              <Table size="lg" striped hover>
+              <Table size="lg" striped bordered hover>
                 <thead>
                   <tr
                     style={{
