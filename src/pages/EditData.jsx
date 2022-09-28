@@ -94,6 +94,7 @@ export default function EditData() {
             onChange={handleChange}
             value={form.registration_number}
             required
+            disabled
           />
           <Form.Label htmlFor="owner" style={{ fontWeight: "bold" }}>
             Nama Pemilik
