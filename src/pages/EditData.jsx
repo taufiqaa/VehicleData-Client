@@ -15,7 +15,6 @@ export default function EditData() {
 
   const [vehicleData, setVehicleData] = useState({});
   const [form, setForm] = useState({
-    id: id,
     registration_number: "",
     owner: "",
     vehicle_brand: "",

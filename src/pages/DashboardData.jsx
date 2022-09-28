@@ -162,7 +162,7 @@ export default function DashboardData() {
                               cursor: "pointer",
                             }}
                             onClick={() => {
-                              handleDetail(data.id);
+                              handleDetail(data.registration_number);
                             }}
                           >
                             Detail
@@ -174,14 +174,14 @@ export default function DashboardData() {
                               cursor: "pointer",
                             }}
                             onClick={() => {
-                              handleUpdate(data.id);
+                              handleUpdate(data.registration_number);
                             }}
                           >
                             Edit
                           </h6>
                           <h6
                             onClick={() => {
-                              handleDelete(data.id);
+                              handleDelete(data.registration_number);
                             }}
                             style={{
                               fontSize: "4",
