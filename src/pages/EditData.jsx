@@ -154,7 +154,7 @@ export default function EditData() {
             Tahun Pembuatan
           </Form.Label>
           <Form.Control
-            type="number"
+            type="numeric"
             name="production_year"
             id="production_year"
             style={{ height: "2rem", width: "100%" }}
